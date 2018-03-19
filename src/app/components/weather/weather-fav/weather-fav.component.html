@@ -1,0 +1,5 @@
+<app-weather-header></app-weather-header>
+    <div class = "col-12 col-sm-6 col-md-4" *ngFor = "let city of favCities">
+        <app-weather-fav-item [city]="city"></app-weather-fav-item>
+      </div>
+<a routerLink = "/main/weather"><button type="button">Back to Weather Search</button></a>

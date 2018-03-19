@@ -1,0 +1,7 @@
+Welcome to weather app!!
+<form>
+	<input type="text" placeholder="Enter city to search" [(ngModel)]="searchedText" name="search">
+</form>
+
+<button type="button" (click)="searchCity()">Search</button>
+<a routerLink = "/main/weather/fav"><button type="button">See favourites </button></a>
